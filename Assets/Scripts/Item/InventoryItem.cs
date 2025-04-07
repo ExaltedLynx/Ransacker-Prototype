@@ -136,7 +136,7 @@ public class InventoryItem : MonoBehaviour
         return new StatWeights();
     }
 
-    //TODO this is fucking retarded
+    //TODO this is really stupid
     public readonly Dictionary<WeaponType, StatWeights> wpnAttributePreferences = new()
     {
         { WeaponType.Sword, new StatWeights { weights = new int[6] {5, 40, 20, 20, 0, 10} } },  //Vit: 5%, Str: 40%, Def: 20%, Dex: 20%, Int 5%, Speed: 10%
@@ -146,7 +146,7 @@ public class InventoryItem : MonoBehaviour
         { WeaponType.Shield, new StatWeights { weights = new int[6] {25, 0, 55, 5, 0, 5} } } //Vit: 25%, Def 55%, Dex: 5%, Int 10%, Speed: 5%
     };
 
-    //TODO this is fucking retarded
+    //TODO this is really stupid
     public readonly Dictionary<EquipmentType, StatWeights> eqpmntAttributePreferences = new()
     {
         { EquipmentType.Helmet, new StatWeights { weights = new int[6] {1, 1, 1, 1, 0, 1} } }, //Vit: %, Str: %, Def: %, Dex: %, Int %, Speed: %
