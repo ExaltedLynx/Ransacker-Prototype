@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3cf6b39880a5842ace4e2200425d2d, type: 3}
+  m_Name: Iron Axe
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: a84ada9f9526e4044b83cbdef544c25d, type: 3}
+  itemName: Iron Axe
+  baseValue: 70
+  width: 2
+  height: 3
+  itemRarity: 0
+  weaponType: 2
+  itemFields:
+    rid: 1164310509545324552
+  <baseDamage>k__BackingField: 16
+  <attackSpeed>k__BackingField: 3.5
+  <damageType>k__BackingField: 0
+  <maxBlockFatigue>k__BackingField: 0
+  weaponEffectSO: {fileID: 0}
+  weaponEffect:
+    rid: -2
+  currWeaponEffectSO: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1164310509545324552
+      type: {class: WeaponItem/WeaponFields, ns: , asm: Assembly-CSharp}
+      data:
+        baseDamage: 16
+        attackSpeed: 3.5
+        damageType: 0

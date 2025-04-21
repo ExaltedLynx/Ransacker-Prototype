@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a78946de9d93724d8345fca2c22531d, type: 3}
+  m_Name: Molotov
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 4373582a23317c248ba49661b83f7cc1, type: 3}
+  itemName: Molotov
+  baseValue: 90
+  width: 1
+  height: 1
+  itemRarity: 1
+  effectSO: {fileID: 11400000, guid: 0d72047ad61415f4ba963fd317e51c65, type: 2}
+  effect:
+    rid: 4851130260389101572
+  currEffectSO: {fileID: 11400000, guid: 0d72047ad61415f4ba963fd317e51c65, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4851130260389101572
+      type: {class: BurnEffect, ns: , asm: Assembly-CSharp}
+      data:
+        effectDesc: Applies burn that deals {0} damage to targeted enemy for {1}
+          seconds
+        <Icon>k__BackingField: {fileID: 466343001, guid: 7c340f99fdaa1bf4abf85d3f8d557f2d, type: 3}
+        <Duration>k__BackingField: 7
+        damage: 3

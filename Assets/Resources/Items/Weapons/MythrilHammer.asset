@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3cf6b39880a5842ace4e2200425d2d, type: 3}
+  m_Name: MythrilHammer
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: -2143607910, guid: 6b4bb96c4dff0cc46a5fefe79db922cb, type: 3}
+  itemName: Mythril Hammer
+  baseValue: 550
+  width: 2
+  height: 5
+  itemRarity: 2
+  weaponType: 3
+  itemFields:
+    rid: 1164310509545324559
+  <baseDamage>k__BackingField: 29
+  <attackSpeed>k__BackingField: 3.6
+  <damageType>k__BackingField: 2
+  <maxBlockFatigue>k__BackingField: 0
+  weaponEffectSO: {fileID: 11400000, guid: 56b4949902cd24c419096b4f375e37f4, type: 2}
+  weaponEffect:
+    rid: 4851130480284925961
+  currWeaponEffectSO: {fileID: 11400000, guid: 56b4949902cd24c419096b4f375e37f4, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1164310509545324559
+      type: {class: WeaponItem/WeaponFields, ns: , asm: Assembly-CSharp}
+      data:
+        baseDamage: 29
+        attackSpeed: 3.6
+        damageType: 2
+    - rid: 4851130480284925961
+      type: {class: StackableStunEffect, ns: , asm: Assembly-CSharp}
+      data:
+        effectDesc: test test test {0}
+        <Icon>k__BackingField: {fileID: 2021985479, guid: 7c340f99fdaa1bf4abf85d3f8d557f2d, type: 3}
+        <Duration>k__BackingField: 10
+        <maxStacks>k__BackingField: 3
+        stacksPerHit: 1
+        stunDuration: 6

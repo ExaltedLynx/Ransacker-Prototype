@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3cf6b39880a5842ace4e2200425d2d, type: 3}
+  m_Name: Iron Hammer
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: fd202ce4b01064e4491aa16d0aebf286, type: 3}
+  itemName: Iron Hammer
+  baseValue: 90
+  width: 2
+  height: 5
+  itemRarity: 0
+  weaponType: 3
+  itemFields:
+    rid: 1164310509545324553
+  <baseDamage>k__BackingField: 18
+  <attackSpeed>k__BackingField: 4
+  <damageType>k__BackingField: 2
+  <maxBlockFatigue>k__BackingField: 0
+  weaponEffectSO: {fileID: 11400000, guid: 56b4949902cd24c419096b4f375e37f4, type: 2}
+  weaponEffect:
+    rid: 4851130592066797569
+  currWeaponEffectSO: {fileID: 11400000, guid: 56b4949902cd24c419096b4f375e37f4, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1164310509545324553
+      type: {class: WeaponItem/WeaponFields, ns: , asm: Assembly-CSharp}
+      data:
+        baseDamage: 18
+        attackSpeed: 4
+        damageType: 2
+    - rid: 4851130592066797569
+      type: {class: StackableStunEffect, ns: , asm: Assembly-CSharp}
+      data:
+        effectDesc: 
+        <Icon>k__BackingField: {fileID: 2021985479, guid: 7c340f99fdaa1bf4abf85d3f8d557f2d, type: 3}
+        <Duration>k__BackingField: 10
+        <maxStacks>k__BackingField: 3
+        stacksPerHit: 1
+        stunDuration: 4
